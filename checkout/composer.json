@@ -1,0 +1,28 @@
+{
+    "name": "netflying/checkout",
+    "description": "netflying checkout sdk",
+    "keywords": ["php-sdk","netflying-sdk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "darkghost",
+            "homepage": "https://github.com/aitasty/netflying"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "netflying/payment": "1.2.2",
+        "checkout/checkout-sdk-php": "^3.0.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Netflying\\Checkout\\":"src/",
+            "Netflying\\CheckoutTest\\":"test/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Netflying\\CheckoutTest\\":"test/"
+        }
+    }
+}

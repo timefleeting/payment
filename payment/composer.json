@@ -1,0 +1,26 @@
+{
+    "name": "netflying/payment",
+    "description": "netflying payment sdk",
+    "keywords": ["php-sdk","netflying-sdk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "darkghost",
+            "homepage": "https://github.com/aitasty/netflying"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Netflying\\Payment\\":"src/",
+            "Netflying\\PaymentTest\\":"test/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Netflying\\PaymentTest\\":"test/"
+        }
+    }
+}
